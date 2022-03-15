@@ -61,7 +61,7 @@ def iterasi():
                         loop_int_1 = i+2
                         result += "backend,frontend,"
                         loop_pool = 3
-
+    print(result)
         
 if __name__ == "__main__":
     iterasi()
