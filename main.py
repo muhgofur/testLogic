@@ -15,71 +15,53 @@ def iterasi():
             loop_int_1 = i+1 
             loop_pool = 3
         elif i > 6 :
-            print(i)
             if loop_pool == 3:
                 if loop_int_1 == i:
                     loop_int_2 = i+1
                     result += f"{i},"
-                    print(result)
                 elif loop_int_2 == i:
                     loop_int_3 = i+1
                     result += f"{i},"
-                    print(result)
                 elif loop_int_3 == i:
                     loop_int_4 = i+2
                     result += "frontend,backend,"
-                    print(result)
                 elif loop_int_4 == i:
                     loop_int_5 = i+1
                     result += f"{i},"
-                    print(result)
                 elif loop_int_5 == i:
                     loop_int_6 = i+1
                     result += "frontend,"
-                    print(result)
                     loop_pool = 6
             elif loop_pool == 6:
                 if loop_int_6 == i:
                     loop_int_7 = i+1
                     result += f"{i},"
-                    print(result)
                 elif loop_int_7 == i:
                      loop_int_8 = i+1
                      result += f"{i},"
-                     print(result)
                 elif loop_int_8 == i:
                     loop_int_9 = i+1
                     result += "frontend backend,"
-                    print(result)
                 elif loop_int_9 == i:
                     loop_int_10 = i+1
                     result += f"{i},"
-                    print(result)
                 elif loop_int_10 == i:
                      loop_int_11 = i+1
                      result += f"{i},"
-                     print(result)
                 elif loop_int_11 == i:
                     loop_int_12 = i+1
                     result += "frontend,"
-                    print(result)
                 elif loop_int_12 == i:
                      loop_int_13 = i+1
                      result += f"{i},"
-                     print(result)
                 elif loop_int_13 == i:
                     if i == 50:
                         result += "backend"
-                        print(result)
                     else:
                         loop_int_1 = i+2
                         result += "backend,frontend,"
-                        print(result)
                         loop_pool = 3
 
-           
-
-    print(result)
         
 if __name__ == "__main__":
     iterasi()
